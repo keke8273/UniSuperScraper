@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a60dcd2a9b5946568ad7cf5a584b9dd5" Name="Diagram1" ZoomLevel="97" >
+        <EntityTypeShape EntityType="Unisuper.User" Width="1.5" PointX="6.25" PointY="1.75" />
+        <EntityTypeShape EntityType="Unisuper.Balance" Width="1.5" PointX="9.25" PointY="1.75" />
+        <AssociationConnector Association="Unisuper.UserBalance" />
+        <EntityTypeShape EntityType="Unisuper.Transaction" Width="1.5" PointX="3.5" PointY="1.75" />
+        <AssociationConnector Association="Unisuper.UserTransaction" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
